@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Blog Personal</title>
+    <script>
+        function PromptDemo() {
+            //Ingresamos una pregunta
+            var gmail = prompt("Ingresa tu gmail aquí:", "");
+            //Verificamos si el usuario ingreso un valor
+            if (gmail!= null){
+            alert("Genail! Ahora cada vez que subamos algo nuevo recibiras una notificación a:_" + gmail);
+            }
+            //Verificamos si el usuario NO ingreso un valor
+            else {
+            alert("No recibiras ninguna notificación por parte de esta web.");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" onclick="PromptDemo();" value="Para recibir notificaciones has click aquí"/>
+    <header>
+      <nav>
+        <div class="left-nav">
+          <div class="image-content">
+            <a href="#">
+              <img class="profile-pic" src="./img/Mi-foto.jpg" alt="Foto de perfil">
+            </a>
+          </div>
+          <div class="name-content">
+              <a href="#">
+                  Rafaela Duran
+              </a>
+          </div>
+        </div>
+        <div class="contact-content">
+          <a href="mailto:rafaeladuran1409@gmail.com">
+            Envíame un correo
+          </a>
+        </div>
+      </nav>    
+    </header>
+  
+  <main>
+        <div class="blog-description">
+          <h1>
+            Mi blog de viajes
+          </h1>
+          <p>
+            Conoce todos mis viajes alrededor del mundo.
+          </p>
+        </div>
+
+        <div class="articles-area">
+
+
+          <div class="article-area">
+            <div class="image-article-area">
+                <a href="#">
+                      <img src="./img/disney.jpg" alt="">
+                  </a>
+            </div>
+            <div class="info-article">
+              <div>
+                <span>
+                    Estados Unidos
+                </span>
+                <a href="#">
+                  <p class="title-info-article">
+                    Primera vez en Disney World
+                  </p>
+                </a>
+                <p>
+                    Ir a Disney world es un muy buen viaje para ir en familia. Es una experiencia muy divertida, hay muchos juegos y lugares muy bonitos donde comer y quedarse.
+                </p>
+                
+              </div>
+              <div class="date-area">  
+                    <time datetime="2022-03-28">
+                      Febrero 9, 2022
+                    </time>
+              </div>
+            </div>
+          </div>
+
+          <div class="article-area">
+            <div class="image-article-area">
+                <a href="#">
+                      <img src="./img/punta-cana.jpg" alt="">
+                  </a>
+            </div>
+            <div class="info-article">
+              <div>
+                <span>
+                    Républica Dominicana 
+                </span>
+                <a href="#">
+                  <p class="title-info-article">
+                    Las Maravillas de Punta Cana
+                  </p>
+                </a>
+                <p>
+                    Ir a Punta Cana es un viaje para relajarse y pasarla bien. Las vistas son espectaculares, La comida es muy sabrosa y las temperatura del mar es asombrosa.
+                </p>
+                
+              </div>
+              <div class="date-area">  
+                    <time datetime="2022-03-28">
+                      Junio 28, 2017
+                    </time>
+              </div>
+            </div>
+          </div>
+
+          <div class="article-area">
+            <div class="image-article-area">
+                <a href="#">
+                      <img src="./img/patagonia.jpg" alt="">
+                  </a>
+            </div>
+            <div class="info-article">
+              <div>
+                <span>
+                    Chile
+                </span>
+                <a href="#">
+                  <p class="title-info-article">
+                    Viajando por la Patagonia Chilena
+                  </p>
+                </a>
+                <p>
+                    En este viaje recorrí muchos lugares: Todo esta repleto de naturaleza y fauna nativa. Es un placer inmenso ver los hermosos lugares de la patagonia Chilena.
+                </p>
+              </div>
+              <div class="date-area">  
+                    <time datetime="2022-03-28">
+                      Febrero 17, 2020
+                    </time>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    
+</body>
+
+
+</html>
